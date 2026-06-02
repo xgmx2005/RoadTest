@@ -47,9 +47,15 @@ python run_batch.py --input 道路example --output out_example --weights culane_
 - `*_vis.jpg`：可视化结果图
 - `results.json`：逐图检测结果与时间统计
 
+仓库中已附带一份实际运行后的结果：
+- `results/test-difficult/`
+- `results/example/`
+
 ## 文件说明
 
 - `ufld_model.py`：UFLD 模型定义
 - `lane_detector.py`：车道线检测、颜色分类、可视化
 - `run_batch.py`：批量推理与时间统计
+- `results/`：本次测试生成的结果图与 `results.json`
 - `docs/report_期末实验说明.md`：实验说明与结果写法
+- `docs/final_report_期末实验正文.md`：可直接提交的实验报告正文
