@@ -2,11 +2,13 @@ import argparse
 import glob
 import json
 import os
+import sys
 import time
 
 import cv2
 import numpy as np
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lane_detector as detector
 
 IMG_EXTS = ("*.jpg", "*.jpeg", "*.png", "*.bmp")
