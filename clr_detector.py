@@ -156,6 +156,15 @@ def _drop_duplicate_extreme_right_lanes(lanes, image_width, image_height):
 
 
 def filter_false_positives(lanes, image_width, image_height):
+    """Lightweight, generic geometric post-processing to drop obvious non-lane
+    detections (right-side guardrail mislabeled yellow, left-edge rural curb
+    white lines, duplicate extreme-right boundary lines).
+
+    Rules use only normalized endpoint geometry and apply uniformly to every
+    image (no per-image hardcoding). Thresholds were tuned on the test-difficult
+    set, so they carry overfitting risk on out-of-distribution images; see
+    docs/模型改进_CLRNet检测.md section 7.
+    """
     filtered = [lane for lane in lanes if not _is_border_false_positive(lane, image_width, image_height)]
     return _drop_duplicate_extreme_right_lanes(filtered, image_width, image_height)
 
