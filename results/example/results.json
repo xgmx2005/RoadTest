@@ -3,7 +3,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0255,
+    "time_sec": 0.2063,
     "lanes": [
       {
         "color": "white",
@@ -119,7 +119,7 @@
     "num_lanes": 2,
     "num_yellow": 1,
     "num_white": 1,
-    "time_sec": 0.016,
+    "time_sec": 0.2443,
     "lanes": [
       {
         "color": "yellow",
@@ -231,7 +231,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0313,
+    "time_sec": 0.1915,
     "lanes": [
       {
         "color": "white",
@@ -419,12 +419,12 @@
   },
   "1981589714889895936.jpg": {
     "num_lanes": 2,
-    "num_yellow": 0,
-    "num_white": 2,
-    "time_sec": 0.0317,
+    "num_yellow": 1,
+    "num_white": 1,
+    "time_sec": 0.2047,
     "lanes": [
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 16,
         "points": [
           [
@@ -539,12 +539,12 @@
   },
   "1981589724586811392.jpg": {
     "num_lanes": 2,
-    "num_yellow": 0,
-    "num_white": 2,
-    "time_sec": 0.0313,
+    "num_yellow": 1,
+    "num_white": 1,
+    "time_sec": 0.2477,
     "lanes": [
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 9,
         "points": [
           [
@@ -625,7 +625,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0317,
+    "time_sec": 0.0605,
     "lanes": [
       {
         "color": "white",
@@ -803,7 +803,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.0418,
+    "time_sec": 0.0943,
     "lanes": [
       {
         "color": "white",
@@ -1031,7 +1031,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0266,
+    "time_sec": 0.1099,
     "lanes": [
       {
         "color": "white",
@@ -1203,9 +1203,9 @@
   },
   "1981592418894766080.jpg": {
     "num_lanes": 4,
-    "num_yellow": 0,
-    "num_white": 4,
-    "time_sec": 0.0315,
+    "num_yellow": 1,
+    "num_white": 3,
+    "time_sec": 0.1578,
     "lanes": [
       {
         "color": "white",
@@ -1300,7 +1300,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 18,
         "points": [
           [
@@ -1429,7 +1429,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0331,
+    "time_sec": 0.1738,
     "lanes": [
       {
         "color": "white",
@@ -1495,7 +1495,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0271,
+    "time_sec": 0.0625,
     "lanes": [
       {
         "color": "white",
@@ -1695,9 +1695,9 @@
   },
   "1981592448787574784.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
-    "time_sec": 0.0313,
+    "num_yellow": 1,
+    "num_white": 2,
+    "time_sec": 0.063,
     "lanes": [
       {
         "color": "white",
@@ -1738,7 +1738,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 18,
         "points": [
           [
@@ -1899,7 +1899,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.016,
+    "time_sec": 0.0446,
     "lanes": [
       {
         "color": "white",
@@ -2093,7 +2093,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0313,
+    "time_sec": 0.0649,
     "lanes": [
       {
         "color": "white",
@@ -2299,7 +2299,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0317,
+    "time_sec": 0.0664,
     "lanes": [
       {
         "color": "white",
@@ -2463,7 +2463,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0313,
+    "time_sec": 0.063,
     "lanes": [
       {
         "color": "white",
@@ -2665,7 +2665,7 @@
     "num_lanes": 3,
     "num_yellow": 1,
     "num_white": 2,
-    "time_sec": 0.0311,
+    "time_sec": 0.3312,
     "lanes": [
       {
         "color": "white",
@@ -2845,9 +2845,9 @@
   },
   "1981592490369904640.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
-    "time_sec": 0.0321,
+    "num_yellow": 1,
+    "num_white": 2,
+    "time_sec": 0.2211,
     "lanes": [
       {
         "color": "white",
@@ -2892,7 +2892,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 18,
         "points": [
           [
@@ -3043,9 +3043,9 @@
   },
   "1981592495600205824.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
-    "time_sec": 0.0316,
+    "num_yellow": 1,
+    "num_white": 2,
+    "time_sec": 0.246,
     "lanes": [
       {
         "color": "white",
@@ -3090,7 +3090,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 18,
         "points": [
           [
@@ -3241,9 +3241,9 @@
   },
   "1981592502260756480.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
-    "time_sec": 0.0315,
+    "num_yellow": 1,
+    "num_white": 2,
+    "time_sec": 0.2372,
     "lanes": [
       {
         "color": "white",
@@ -3292,7 +3292,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 18,
         "points": [
           [
@@ -3453,7 +3453,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0166,
+    "time_sec": 0.1608,
     "lanes": [
       {
         "color": "white",
@@ -3553,7 +3553,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0156,
+    "time_sec": 0.1011,
     "lanes": [
       {
         "color": "white",
@@ -3755,7 +3755,7 @@
     "num_lanes": 3,
     "num_yellow": 1,
     "num_white": 2,
-    "time_sec": 0.0317,
+    "time_sec": 0.1507,
     "lanes": [
       {
         "color": "yellow",
@@ -3961,7 +3961,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0313,
+    "time_sec": 0.2003,
     "lanes": [
       {
         "color": "white",
@@ -4095,7 +4095,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0317,
+    "time_sec": 0.1418,
     "lanes": [
       {
         "color": "white",
@@ -4293,7 +4293,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0313,
+    "time_sec": 0.1417,
     "lanes": [
       {
         "color": "white",
@@ -4457,7 +4457,7 @@
     "num_lanes": 3,
     "num_yellow": 1,
     "num_white": 2,
-    "time_sec": 0.016,
+    "time_sec": 0.1378,
     "lanes": [
       {
         "color": "yellow",
@@ -4551,7 +4551,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.0283,
+    "time_sec": 0.1294,
     "lanes": [
       {
         "color": "white",
@@ -4755,7 +4755,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0241,
+    "time_sec": 0.1824,
     "lanes": [
       {
         "color": "white",
@@ -4961,7 +4961,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.0321,
+    "time_sec": 0.0903,
     "lanes": [
       {
         "color": "white",
@@ -5217,7 +5217,7 @@
     "num_lanes": 4,
     "num_yellow": 1,
     "num_white": 3,
-    "time_sec": 0.0321,
+    "time_sec": 0.1503,
     "lanes": [
       {
         "color": "yellow",
@@ -5445,7 +5445,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.016,
+    "time_sec": 0.1281,
     "lanes": [
       {
         "color": "white",
@@ -5651,7 +5651,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.0272,
+    "time_sec": 0.1007,
     "lanes": [
       {
         "color": "white",
@@ -5901,9 +5901,9 @@
   },
   "20260127cdx377.jpg": {
     "num_lanes": 3,
-    "num_yellow": 1,
-    "num_white": 2,
-    "time_sec": 0.0313,
+    "num_yellow": 2,
+    "num_white": 1,
+    "time_sec": 0.0631,
     "lanes": [
       {
         "color": "yellow",
@@ -6062,7 +6062,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 3,
         "points": [
           [
@@ -6085,7 +6085,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0317,
+    "time_sec": 0.1571,
     "lanes": [
       {
         "color": "white",
@@ -6239,9 +6239,9 @@
   },
   "20260127cdx379.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
-    "time_sec": 0.0313,
+    "num_yellow": 1,
+    "num_white": 2,
+    "time_sec": 0.0469,
     "lanes": [
       {
         "color": "white",
@@ -6340,7 +6340,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 14,
         "points": [
           [
@@ -6407,7 +6407,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0336,
+    "time_sec": 0.0374,
     "lanes": [
       {
         "color": "white",
@@ -6537,9 +6537,9 @@
   },
   "20260127cdx381.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
-    "time_sec": 0.024,
+    "num_yellow": 1,
+    "num_white": 2,
+    "time_sec": 0.0391,
     "lanes": [
       {
         "color": "white",
@@ -6698,7 +6698,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 4,
         "points": [
           [
@@ -6725,7 +6725,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0311,
+    "time_sec": 0.0482,
     "lanes": [
       {
         "color": "white",
@@ -6901,9 +6901,9 @@
   },
   "20260127cdx383.jpg": {
     "num_lanes": 4,
-    "num_yellow": 0,
-    "num_white": 4,
-    "time_sec": 0.0313,
+    "num_yellow": 1,
+    "num_white": 3,
+    "time_sec": 0.0941,
     "lanes": [
       {
         "color": "white",
@@ -7088,7 +7088,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 12,
         "points": [
           [
@@ -7147,7 +7147,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0313,
+    "time_sec": 0.0519,
     "lanes": [
       {
         "color": "white",
@@ -7343,12 +7343,12 @@
   },
   "20260127cdx385.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
-    "time_sec": 0.0313,
+    "num_yellow": 2,
+    "num_white": 1,
+    "time_sec": 0.0469,
     "lanes": [
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 18,
         "points": [
           [
@@ -7500,7 +7500,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 7,
         "points": [
           [
@@ -7539,14 +7539,14 @@
     "num_lanes": 0,
     "num_yellow": 0,
     "num_white": 0,
-    "time_sec": 0.0313,
+    "time_sec": 0.0473,
     "lanes": []
   },
   "20260127cdx387.jpg": {
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0156,
+    "time_sec": 0.0468,
     "lanes": [
       {
         "color": "white",
@@ -7734,9 +7734,9 @@
   },
   "20260127cdx388.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
-    "time_sec": 0.0156,
+    "num_yellow": 1,
+    "num_white": 2,
+    "time_sec": 0.0313,
     "lanes": [
       {
         "color": "white",
@@ -7895,7 +7895,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 7,
         "points": [
           [
@@ -7934,7 +7934,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0253,
+    "time_sec": 0.0473,
     "lanes": [
       {
         "color": "white",
@@ -8030,7 +8030,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0332,
+    "time_sec": 0.0469,
     "lanes": [
       {
         "color": "white",
@@ -8166,14 +8166,14 @@
     "num_lanes": 0,
     "num_yellow": 0,
     "num_white": 0,
-    "time_sec": 0.0336,
+    "time_sec": 0.035,
     "lanes": []
   },
   "20260127cdx392.jpg": {
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0331,
+    "time_sec": 0.0501,
     "lanes": [
       {
         "color": "white",
@@ -8337,7 +8337,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.023,
+    "time_sec": 0.0481,
     "lanes": [
       {
         "color": "white",
@@ -8496,11 +8496,11 @@
   "__summary__": {
     "num_images": 50,
     "total_lanes_detected": 138,
-    "total_yellow_detected": 6,
-    "total_white_detected": 132,
-    "total_time_sec": 1.416,
-    "avg_time_per_image_sec": 0.0283,
-    "avg_time_per_image_ms": 28.3,
-    "fps": 35.3
+    "total_yellow_detected": 20,
+    "total_white_detected": 118,
+    "total_time_sec": 5.844,
+    "avg_time_per_image_sec": 0.1169,
+    "avg_time_per_image_ms": 116.9,
+    "fps": 8.56
   }
 }

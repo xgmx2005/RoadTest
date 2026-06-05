@@ -69,34 +69,73 @@ def _postprocess(out, img_w, img_h):
     return lanes
 
 
-def classify_color(img_bgr, points, patch=8):
-    if not points:
-        return None
+# color-classification tuning (see docs/模型改进_对照老师真值.md for derivation)
+COLOR_YTOP = 0.30      # skip the top 30% of the line (horizon haze, tiny/noisy)
+COLOR_YBOT = 0.90      # skip the bottom 10% (ego-vehicle hood / strong reflection)
+COLOR_ROAD_OFFSET = 0.08   # road reference patch offset as fraction of image width
+COLOR_ABS_DEFICIT = 0.15   # absolute blue-deficit floor for a yellow marking
+COLOR_REL_DEFICIT = 0.06   # marking must exceed adjacent road by this much
+
+
+def _blue_deficit(pixels):
+    """Median (1 - B / max(R, G)); higher means more yellow, ~0 for white/gray."""
+    blue, green, red = pixels[:, 0], pixels[:, 1], pixels[:, 2]
+    return float(np.median(1.0 - blue / (np.maximum(red, green) + 1e-6)))
+
+
+def _bright_patch(img_bgr, x, y, patch, pct=65, min_bright=80):
     height, width = img_bgr.shape[:2]
-    selected = []
-    for x, y in points:
-        x0, x1 = max(0, x - patch), min(width, x + patch + 1)
-        y0, y1 = max(0, y - patch), min(height, y + patch + 1)
-        if x0 >= x1 or y0 >= y1:
-            continue
-        region = img_bgr[y0:y1, x0:x1].reshape(-1, 3).astype(np.float32)
-        if len(region) == 0:
+    x0, x1 = max(0, x - patch), min(width, x + patch + 1)
+    y0, y1 = max(0, y - patch), min(height, y + patch + 1)
+    if x0 >= x1 or y0 >= y1:
+        return None
+    region = img_bgr[y0:y1, x0:x1].reshape(-1, 3).astype(np.float32)
+    if len(region) == 0:
+        return region
+    return region
+
+
+def classify_color(img_bgr, points, patch=6):
+    """Yellow vs white via road-relative blue-deficit.
+
+    Lane markings (yellow or white) are brighter than the road; the
+    discriminative cue is the blue channel. Global warm/sunset lighting tints
+    both markings and road, so we measure each marking's blue-deficit *relative*
+    to the adjacent road surface, which cancels out the global colour cast.
+    Sampling is restricted to the mid-section of the line to avoid horizon haze
+    and the ego-vehicle's (yellow) hood at the bottom of the frame.
+    """
+    if not points or len(points) < 2:
+        return "white"
+    height, width = img_bgr.shape[:2]
+    ordered = sorted(points, key=lambda q: q[1])  # top -> bottom
+    band = [(x, y) for (x, y) in ordered if COLOR_YTOP * height <= y <= COLOR_YBOT * height]
+    if len(band) < 2:
+        band = ordered
+    offset = int(COLOR_ROAD_OFFSET * width)
+
+    line_pixels, road_pixels = [], []
+    for x, y in band:
+        region = _bright_patch(img_bgr, x, y, patch)
+        if region is None or len(region) == 0:
             continue
         value = region.max(axis=1)
-        threshold = max(np.percentile(value, 70), 110)
+        threshold = max(np.percentile(value, 65), 80)
         bright = region[value >= threshold]
-        if len(bright) > 0:
-            selected.append(bright)
-    if not selected:
-        return "white"
+        if len(bright) == 0:
+            continue
+        refs = [_bright_patch(img_bgr, x + dx, y, patch) for dx in (-offset, offset)]
+        refs = [r for r in refs if r is not None and len(r) > 0]
+        if not refs:
+            continue
+        line_pixels.append(bright)
+        road_pixels.append(np.concatenate(refs, axis=0))
 
-    pixels = np.concatenate(selected, axis=0)
-    blue, green, red = pixels[:, 0], pixels[:, 1], pixels[:, 2]
-    ratio = np.median(blue / (np.maximum(red, green) + 1e-6))
-    hsv = cv2.cvtColor(pixels.reshape(-1, 1, 3).astype(np.uint8), cv2.COLOR_BGR2HSV).reshape(-1, 3)
-    sat = float(np.median(hsv[:, 1]))
-    hue = float(np.median(hsv[:, 0]))
-    if ratio < 0.66 and sat >= 65 and 8 <= hue <= 45:
+    if not line_pixels:
+        return "white"
+    line_deficit = _blue_deficit(np.concatenate(line_pixels, axis=0))
+    road_deficit = _blue_deficit(np.concatenate(road_pixels, axis=0)) if road_pixels else 0.0
+    if line_deficit >= COLOR_ABS_DEFICIT and (line_deficit - road_deficit) >= COLOR_REL_DEFICIT:
         return "yellow"
     return "white"
 
