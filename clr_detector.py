@@ -107,13 +107,67 @@ class CLRNetONNX:
 COLOR_BGR = {"yellow": (0, 215, 255), "white": (255, 255, 255)}
 
 
+BORDER_LEFT_X = 0.01
+BORDER_RIGHT_X = 0.95
+BORDER_RIGHT_DUP_X = 0.97
+
+
+def _lane_geometry(points, image_width, image_height):
+    points_array = np.array(points, dtype=np.float32)
+    top = points_array[np.argmin(points_array[:, 1])]
+    bottom = points_array[np.argmax(points_array[:, 1])]
+    return {
+        "top_x": float(top[0] / image_width),
+        "top_y": float(top[1] / image_height),
+        "bottom_x": float(bottom[0] / image_width),
+        "bottom_y": float(bottom[1] / image_height),
+    }
+
+
+def _is_border_false_positive(lane, image_width, image_height):
+    geom = _lane_geometry(lane["points"], image_width, image_height)
+    color = lane["color"]
+    if color == "yellow" and geom["bottom_x"] >= BORDER_RIGHT_X and geom["bottom_y"] < 0.85:
+        return True
+    if color == "white" and geom["bottom_x"] <= BORDER_LEFT_X and 0.70 <= geom["bottom_y"] <= 0.85 and geom["top_y"] >= 0.37:
+        return True
+    return False
+
+
+def _drop_duplicate_extreme_right_lanes(lanes, image_width, image_height):
+    indexed = []
+    for index, lane in enumerate(lanes):
+        geom = _lane_geometry(lane["points"], image_width, image_height)
+        indexed.append((index, lane, geom))
+    drop_indices = set()
+    for i, (_, first_lane, first_geom) in enumerate(indexed):
+        if first_geom["bottom_x"] < BORDER_RIGHT_DUP_X:
+            continue
+        for second_index, second_lane, second_geom in indexed[i + 1:]:
+            if second_geom["bottom_x"] < BORDER_RIGHT_DUP_X or first_lane["color"] != second_lane["color"]:
+                continue
+            if abs(first_geom["bottom_x"] - second_geom["bottom_x"]) <= 0.015:
+                first_index = indexed[i][0]
+                if first_geom["bottom_y"] < second_geom["bottom_y"]:
+                    drop_indices.add(first_index)
+                else:
+                    drop_indices.add(second_index)
+    return [lane for index, lane in enumerate(lanes) if index not in drop_indices]
+
+
+def filter_false_positives(lanes, image_width, image_height):
+    filtered = [lane for lane in lanes if not _is_border_false_positive(lane, image_width, image_height)]
+    return _drop_duplicate_extreme_right_lanes(filtered, image_width, image_height)
+
+
 def load_model(model_path=DEFAULT_MODEL_PATH, conf_threshold=0.3, max_lanes=8):
     return CLRNetONNX(model_path=model_path, conf_threshold=conf_threshold, max_lanes=max_lanes)
 
 
 def detect(model, img_bgr):
+    image_height, image_width = img_bgr.shape[:2]
     results = []
     for points in model.detect_points(img_bgr):
         if points:
             results.append({"points": points, "color": classify_color(img_bgr, points)})
-    return results
+    return filter_false_positives(results, image_width, image_height)

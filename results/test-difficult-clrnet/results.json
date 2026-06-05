@@ -3,7 +3,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0469,
+    "time_sec": 0.0317,
     "lanes": [
       {
         "color": "white",
@@ -501,7 +501,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0313,
+    "time_sec": 0.063,
     "lanes": [
       {
         "color": "white",
@@ -1007,7 +1007,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.0631,
+    "time_sec": 0.0465,
     "lanes": [
       {
         "color": "white",
@@ -1715,7 +1715,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.031,
+    "time_sec": 0.0406,
     "lanes": [
       {
         "color": "white",
@@ -2295,7 +2295,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.0514,
+    "time_sec": 0.0498,
     "lanes": [
       {
         "color": "white",
@@ -2924,10 +2924,10 @@
     ]
   },
   "1976896252898152448.jpg": {
-    "num_lanes": 4,
-    "num_yellow": 1,
+    "num_lanes": 3,
+    "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0481,
+    "time_sec": 0.0454,
     "lanes": [
       {
         "color": "white",
@@ -3338,120 +3338,6 @@
         ]
       },
       {
-        "color": "yellow",
-        "num_points": 27,
-        "points": [
-          [
-            1070,
-            319
-          ],
-          [
-            1101,
-            335
-          ],
-          [
-            1133,
-            350
-          ],
-          [
-            1164,
-            365
-          ],
-          [
-            1196,
-            380
-          ],
-          [
-            1227,
-            395
-          ],
-          [
-            1259,
-            411
-          ],
-          [
-            1291,
-            426
-          ],
-          [
-            1322,
-            441
-          ],
-          [
-            1354,
-            456
-          ],
-          [
-            1385,
-            472
-          ],
-          [
-            1417,
-            487
-          ],
-          [
-            1448,
-            502
-          ],
-          [
-            1480,
-            517
-          ],
-          [
-            1511,
-            532
-          ],
-          [
-            1543,
-            548
-          ],
-          [
-            1575,
-            563
-          ],
-          [
-            1606,
-            578
-          ],
-          [
-            1638,
-            593
-          ],
-          [
-            1669,
-            608
-          ],
-          [
-            1701,
-            624
-          ],
-          [
-            1732,
-            639
-          ],
-          [
-            1764,
-            654
-          ],
-          [
-            1795,
-            669
-          ],
-          [
-            1827,
-            685
-          ],
-          [
-            1859,
-            700
-          ],
-          [
-            1890,
-            715
-          ]
-        ]
-      },
-      {
         "color": "white",
         "num_points": 28,
         "points": [
@@ -3572,10 +3458,10 @@
     ]
   },
   "1976928351344525312.jpg": {
-    "num_lanes": 4,
-    "num_yellow": 1,
+    "num_lanes": 3,
+    "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0482,
+    "time_sec": 0.2333,
     "lanes": [
       {
         "color": "white",
@@ -3780,120 +3666,6 @@
           [
             1616,
             1065
-          ]
-        ]
-      },
-      {
-        "color": "yellow",
-        "num_points": 27,
-        "points": [
-          [
-            1034,
-            304
-          ],
-          [
-            1067,
-            319
-          ],
-          [
-            1099,
-            335
-          ],
-          [
-            1132,
-            350
-          ],
-          [
-            1165,
-            365
-          ],
-          [
-            1198,
-            380
-          ],
-          [
-            1231,
-            395
-          ],
-          [
-            1264,
-            411
-          ],
-          [
-            1297,
-            426
-          ],
-          [
-            1330,
-            441
-          ],
-          [
-            1362,
-            456
-          ],
-          [
-            1395,
-            472
-          ],
-          [
-            1428,
-            487
-          ],
-          [
-            1461,
-            502
-          ],
-          [
-            1494,
-            517
-          ],
-          [
-            1527,
-            532
-          ],
-          [
-            1560,
-            548
-          ],
-          [
-            1593,
-            563
-          ],
-          [
-            1626,
-            578
-          ],
-          [
-            1658,
-            593
-          ],
-          [
-            1691,
-            608
-          ],
-          [
-            1724,
-            624
-          ],
-          [
-            1757,
-            639
-          ],
-          [
-            1790,
-            654
-          ],
-          [
-            1823,
-            669
-          ],
-          [
-            1855,
-            685
-          ],
-          [
-            1888,
-            700
           ]
         ]
       },
@@ -4243,7 +4015,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.032,
+    "time_sec": 0.0617,
     "lanes": [
       {
         "color": "white",
@@ -4663,7 +4435,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0473,
+    "time_sec": 0.0448,
     "lanes": [
       {
         "color": "white",
@@ -5068,10 +4840,10 @@
     ]
   },
   "1981589146997915648.jpg": {
-    "num_lanes": 3,
+    "num_lanes": 2,
     "num_yellow": 1,
-    "num_white": 2,
-    "time_sec": 0.0625,
+    "num_white": 1,
+    "time_sec": 0.0563,
     "lanes": [
       {
         "color": "yellow",
@@ -5253,120 +5025,6 @@
       },
       {
         "color": "white",
-        "num_points": 27,
-        "points": [
-          [
-            885,
-            411
-          ],
-          [
-            851,
-            426
-          ],
-          [
-            818,
-            441
-          ],
-          [
-            784,
-            456
-          ],
-          [
-            750,
-            472
-          ],
-          [
-            716,
-            487
-          ],
-          [
-            682,
-            502
-          ],
-          [
-            649,
-            517
-          ],
-          [
-            615,
-            532
-          ],
-          [
-            581,
-            548
-          ],
-          [
-            548,
-            563
-          ],
-          [
-            514,
-            578
-          ],
-          [
-            480,
-            593
-          ],
-          [
-            447,
-            608
-          ],
-          [
-            413,
-            624
-          ],
-          [
-            379,
-            639
-          ],
-          [
-            345,
-            654
-          ],
-          [
-            312,
-            669
-          ],
-          [
-            278,
-            685
-          ],
-          [
-            244,
-            700
-          ],
-          [
-            211,
-            715
-          ],
-          [
-            177,
-            730
-          ],
-          [
-            143,
-            745
-          ],
-          [
-            110,
-            761
-          ],
-          [
-            76,
-            776
-          ],
-          [
-            42,
-            791
-          ],
-          [
-            9,
-            806
-          ]
-        ]
-      },
-      {
-        "color": "white",
         "num_points": 42,
         "points": [
           [
@@ -5542,10 +5200,10 @@
     ]
   },
   "1981592448787574784.jpg": {
-    "num_lanes": 3,
+    "num_lanes": 2,
     "num_yellow": 1,
-    "num_white": 2,
-    "time_sec": 0.0471,
+    "num_white": 1,
+    "time_sec": 0.0405,
     "lanes": [
       {
         "color": "yellow",
@@ -5718,108 +5376,6 @@
           [
             328,
             1065
-          ]
-        ]
-      },
-      {
-        "color": "white",
-        "num_points": 24,
-        "points": [
-          [
-            853,
-            441
-          ],
-          [
-            816,
-            456
-          ],
-          [
-            780,
-            472
-          ],
-          [
-            743,
-            487
-          ],
-          [
-            707,
-            502
-          ],
-          [
-            670,
-            517
-          ],
-          [
-            633,
-            532
-          ],
-          [
-            597,
-            548
-          ],
-          [
-            560,
-            563
-          ],
-          [
-            524,
-            578
-          ],
-          [
-            487,
-            593
-          ],
-          [
-            450,
-            608
-          ],
-          [
-            414,
-            624
-          ],
-          [
-            377,
-            639
-          ],
-          [
-            340,
-            654
-          ],
-          [
-            304,
-            669
-          ],
-          [
-            267,
-            685
-          ],
-          [
-            231,
-            700
-          ],
-          [
-            194,
-            715
-          ],
-          [
-            158,
-            730
-          ],
-          [
-            121,
-            745
-          ],
-          [
-            85,
-            761
-          ],
-          [
-            48,
-            776
-          ],
-          [
-            12,
-            791
           ]
         ]
       },
@@ -6004,10 +5560,10 @@
     ]
   },
   "1981592485181546496.jpg": {
-    "num_lanes": 3,
+    "num_lanes": 2,
     "num_yellow": 2,
-    "num_white": 1,
-    "time_sec": 0.0543,
+    "num_white": 0,
+    "time_sec": 0.047,
     "lanes": [
       {
         "color": "yellow",
@@ -6356,124 +5912,6 @@
             1065
           ]
         ]
-      },
-      {
-        "color": "white",
-        "num_points": 28,
-        "points": [
-          [
-            800,
-            456
-          ],
-          [
-            770,
-            472
-          ],
-          [
-            741,
-            487
-          ],
-          [
-            712,
-            502
-          ],
-          [
-            682,
-            517
-          ],
-          [
-            653,
-            532
-          ],
-          [
-            623,
-            548
-          ],
-          [
-            594,
-            563
-          ],
-          [
-            565,
-            578
-          ],
-          [
-            535,
-            593
-          ],
-          [
-            506,
-            608
-          ],
-          [
-            476,
-            624
-          ],
-          [
-            447,
-            639
-          ],
-          [
-            417,
-            654
-          ],
-          [
-            388,
-            669
-          ],
-          [
-            358,
-            685
-          ],
-          [
-            329,
-            700
-          ],
-          [
-            300,
-            715
-          ],
-          [
-            270,
-            730
-          ],
-          [
-            241,
-            745
-          ],
-          [
-            211,
-            761
-          ],
-          [
-            182,
-            776
-          ],
-          [
-            153,
-            791
-          ],
-          [
-            123,
-            806
-          ],
-          [
-            94,
-            821
-          ],
-          [
-            64,
-            837
-          ],
-          [
-            35,
-            852
-          ],
-          [
-            6,
-            867
-          ]
-        ]
       }
     ]
   },
@@ -6481,7 +5919,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0436,
+    "time_sec": 0.0474,
     "lanes": [
       {
         "color": "white",
@@ -6935,7 +6373,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0529,
+    "time_sec": 0.0471,
     "lanes": [
       {
         "color": "white",
@@ -7461,7 +6899,7 @@
     "num_lanes": 3,
     "num_yellow": 1,
     "num_white": 2,
-    "time_sec": 0.047,
+    "time_sec": 0.0468,
     "lanes": [
       {
         "color": "yellow",
@@ -8023,7 +7461,7 @@
     "num_lanes": 2,
     "num_yellow": 1,
     "num_white": 1,
-    "time_sec": 0.0474,
+    "time_sec": 0.0461,
     "lanes": [
       {
         "color": "yellow",
@@ -8395,7 +7833,7 @@
     "num_lanes": 1,
     "num_yellow": 0,
     "num_white": 1,
-    "time_sec": 0.0431,
+    "time_sec": 0.0479,
     "lanes": [
       {
         "color": "white",
@@ -8597,7 +8035,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.0474,
+    "time_sec": 0.0504,
     "lanes": [
       {
         "color": "white",
@@ -9321,7 +8759,7 @@
     "num_lanes": 4,
     "num_yellow": 1,
     "num_white": 3,
-    "time_sec": 0.0312,
+    "time_sec": 0.0331,
     "lanes": [
       {
         "color": "white",
@@ -10029,7 +9467,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0313,
+    "time_sec": 0.0477,
     "lanes": [
       {
         "color": "white",
@@ -10571,7 +10009,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0498,
+    "time_sec": 0.0469,
     "lanes": [
       {
         "color": "white",
@@ -11061,7 +10499,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0444,
+    "time_sec": 0.0317,
     "lanes": [
       {
         "color": "white",
@@ -11563,7 +11001,7 @@
     "num_lanes": 3,
     "num_yellow": 1,
     "num_white": 2,
-    "time_sec": 0.0424,
+    "time_sec": 0.0627,
     "lanes": [
       {
         "color": "white",
@@ -12070,10 +11508,10 @@
     ]
   },
   "1997139351285211136.jpg": {
-    "num_lanes": 4,
+    "num_lanes": 3,
     "num_yellow": 0,
-    "num_white": 4,
-    "time_sec": 0.0485,
+    "num_white": 3,
+    "time_sec": 0.0482,
     "lanes": [
       {
         "color": "white",
@@ -12472,60 +11910,6 @@
             700
           ]
         ]
-      },
-      {
-        "color": "white",
-        "num_points": 12,
-        "points": [
-          [
-            1253,
-            380
-          ],
-          [
-            1313,
-            395
-          ],
-          [
-            1374,
-            411
-          ],
-          [
-            1434,
-            426
-          ],
-          [
-            1494,
-            441
-          ],
-          [
-            1553,
-            456
-          ],
-          [
-            1613,
-            472
-          ],
-          [
-            1673,
-            487
-          ],
-          [
-            1733,
-            502
-          ],
-          [
-            1793,
-            517
-          ],
-          [
-            1853,
-            532
-          ],
-          [
-            1914,
-            548
-          ]
-        ]
       }
     ]
   },
@@ -12533,7 +11917,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0317,
+    "time_sec": 0.0301,
     "lanes": [
       {
         "color": "white",
@@ -13043,7 +12427,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.047,
+    "time_sec": 0.1828,
     "lanes": [
       {
         "color": "white",
@@ -13549,7 +12933,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0313,
+    "time_sec": 0.0469,
     "lanes": [
       {
         "color": "white",
@@ -13901,7 +13285,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0471,
+    "time_sec": 0.0476,
     "lanes": [
       {
         "color": "white",
@@ -14371,7 +13755,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0312,
+    "time_sec": 0.047,
     "lanes": [
       {
         "color": "white",
@@ -14749,7 +14133,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0365,
+    "time_sec": 0.0282,
     "lanes": [
       {
         "color": "white",
@@ -15117,7 +14501,7 @@
     "num_lanes": 2,
     "num_yellow": 1,
     "num_white": 1,
-    "time_sec": 0.0369,
+    "time_sec": 0.0512,
     "lanes": [
       {
         "color": "yellow",
@@ -15453,7 +14837,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0363,
+    "time_sec": 0.0419,
     "lanes": [
       {
         "color": "white",
@@ -15833,7 +15217,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0387,
+    "time_sec": 0.0331,
     "lanes": [
       {
         "color": "white",
@@ -16163,7 +15547,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0312,
+    "time_sec": 0.0451,
     "lanes": [
       {
         "color": "white",
@@ -16515,7 +15899,7 @@
     "num_lanes": 4,
     "num_yellow": 0,
     "num_white": 4,
-    "time_sec": 0.0313,
+    "time_sec": 0.0474,
     "lanes": [
       {
         "color": "white",
@@ -17091,7 +16475,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0469,
+    "time_sec": 0.0476,
     "lanes": [
       {
         "color": "white",
@@ -17545,7 +16929,7 @@
     "num_lanes": 1,
     "num_yellow": 1,
     "num_white": 0,
-    "time_sec": 0.0312,
+    "time_sec": 0.0469,
     "lanes": [
       {
         "color": "yellow",
@@ -17738,13 +17122,13 @@
   "__summary__": {
     "model": "CLRNet CULane ResNet18 ONNX",
     "num_images": 37,
-    "total_lanes_detected": 108,
-    "total_yellow_detected": 12,
-    "total_white_detected": 96,
-    "total_time_sec": 1.569,
-    "avg_time_per_image_sec": 0.0424,
-    "avg_time_per_image_ms": 42.4,
-    "fps": 23.57,
+    "total_lanes_detected": 102,
+    "total_yellow_detected": 10,
+    "total_white_detected": 92,
+    "total_time_sec": 2.012,
+    "avg_time_per_image_sec": 0.0544,
+    "avg_time_per_image_ms": 54.4,
+    "fps": 18.39,
     "conf_threshold": 0.3,
     "max_lanes": 8
   }
