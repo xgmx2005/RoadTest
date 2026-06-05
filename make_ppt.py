@@ -159,7 +159,8 @@ def image_grid_slides(prs, items):
 
 def main():
     summary_keys_path = os.path.join(RESULTS_DIR, "results.json")
-    data = json.load(open(summary_keys_path, encoding="utf-8"))
+    with open(summary_keys_path, encoding="utf-8") as f:
+        data = json.load(f)
     keys = [k for k in data if k != "__summary__"]
     items = []
     for i, k in enumerate(keys, 1):
