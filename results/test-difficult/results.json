@@ -3,7 +3,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0276,
+    "time_sec": 0.0301,
     "lanes": [
       {
         "color": "white",
@@ -167,7 +167,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.029,
+    "time_sec": 0.0321,
     "lanes": [
       {
         "color": "white",
@@ -345,7 +345,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.016,
+    "time_sec": 0.0316,
     "lanes": [
       {
         "color": "white",
@@ -509,7 +509,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0156,
+    "time_sec": 0.0313,
     "lanes": [
       {
         "color": "white",
@@ -683,7 +683,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0338,
+    "time_sec": 0.0317,
     "lanes": [
       {
         "color": "white",
@@ -955,9 +955,9 @@
   },
   "1976928351344525312.jpg": {
     "num_lanes": 3,
-    "num_yellow": 1,
-    "num_white": 2,
-    "time_sec": 0.0313,
+    "num_yellow": 0,
+    "num_white": 3,
+    "time_sec": 0.0317,
     "lanes": [
       {
         "color": "white",
@@ -1092,7 +1092,7 @@
         ]
       },
       {
-        "color": "yellow",
+        "color": "white",
         "num_points": 4,
         "points": [
           [
@@ -1239,7 +1239,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.039,
+    "time_sec": 0.0367,
     "lanes": [
       {
         "color": "white",
@@ -1391,7 +1391,7 @@
     "num_lanes": 3,
     "num_yellow": 1,
     "num_white": 2,
-    "time_sec": 0.0266,
+    "time_sec": 0.0271,
     "lanes": [
       {
         "color": "white",
@@ -1595,8 +1595,8 @@
   },
   "1981592448787574784.jpg": {
     "num_lanes": 3,
-    "num_yellow": 0,
-    "num_white": 3,
+    "num_yellow": 1,
+    "num_white": 2,
     "time_sec": 0.0331,
     "lanes": [
       {
@@ -1638,7 +1638,7 @@
         ]
       },
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 18,
         "points": [
           [
@@ -1981,7 +1981,7 @@
     "num_lanes": 1,
     "num_yellow": 0,
     "num_white": 1,
-    "time_sec": 0.0321,
+    "time_sec": 0.0256,
     "lanes": [
       {
         "color": "white",
@@ -2179,7 +2179,7 @@
     "num_lanes": 3,
     "num_yellow": 1,
     "num_white": 2,
-    "time_sec": 0.0313,
+    "time_sec": 0.0156,
     "lanes": [
       {
         "color": "white",
@@ -2373,7 +2373,7 @@
     "num_lanes": 3,
     "num_yellow": 1,
     "num_white": 2,
-    "time_sec": 0.0317,
+    "time_sec": 0.0156,
     "lanes": [
       {
         "color": "white",
@@ -2549,12 +2549,12 @@
   },
   "1984411340756725760.jpg": {
     "num_lanes": 1,
-    "num_yellow": 1,
-    "num_white": 0,
-    "time_sec": 0.0313,
+    "num_yellow": 0,
+    "num_white": 1,
+    "time_sec": 0.0156,
     "lanes": [
       {
-        "color": "yellow",
+        "color": "white",
         "num_points": 4,
         "points": [
           [
@@ -2579,12 +2579,12 @@
   },
   "1984437739630960640.jpg": {
     "num_lanes": 3,
-    "num_yellow": 2,
-    "num_white": 1,
-    "time_sec": 0.0186,
+    "num_yellow": 0,
+    "num_white": 3,
+    "time_sec": 0.0202,
     "lanes": [
       {
-        "color": "yellow",
+        "color": "white",
         "num_points": 6,
         "points": [
           [
@@ -2692,7 +2692,7 @@
         ]
       },
       {
-        "color": "yellow",
+        "color": "white",
         "num_points": 18,
         "points": [
           [
@@ -2949,7 +2949,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0313,
+    "time_sec": 0.0317,
     "lanes": [
       {
         "color": "white",
@@ -3113,7 +3113,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0291,
+    "time_sec": 0.0333,
     "lanes": [
       {
         "color": "white",
@@ -3303,7 +3303,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0171,
+    "time_sec": 0.0211,
     "lanes": [
       {
         "color": "white",
@@ -3499,12 +3499,12 @@
   },
   "1992857722190536704.jpg": {
     "num_lanes": 1,
-    "num_yellow": 1,
-    "num_white": 0,
-    "time_sec": 0.0313,
+    "num_yellow": 0,
+    "num_white": 1,
+    "time_sec": 0.0175,
     "lanes": [
       {
-        "color": "yellow",
+        "color": "white",
         "num_points": 13,
         "points": [
           [
@@ -3565,9 +3565,9 @@
   },
   "1997139351285211136.jpg": {
     "num_lanes": 4,
-    "num_yellow": 1,
-    "num_white": 3,
-    "time_sec": 0.0313,
+    "num_yellow": 0,
+    "num_white": 4,
+    "time_sec": 0.0336,
     "lanes": [
       {
         "color": "white",
@@ -3592,7 +3592,7 @@
         ]
       },
       {
-        "color": "yellow",
+        "color": "white",
         "num_points": 9,
         "points": [
           [
@@ -3725,12 +3725,12 @@
   },
   "1997864405371752448.jpg": {
     "num_lanes": 3,
-    "num_yellow": 1,
-    "num_white": 2,
-    "time_sec": 0.0156,
+    "num_yellow": 0,
+    "num_white": 3,
+    "time_sec": 0.0165,
     "lanes": [
       {
-        "color": "yellow",
+        "color": "white",
         "num_points": 4,
         "points": [
           [
@@ -3913,7 +3913,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0313,
+    "time_sec": 0.0321,
     "lanes": [
       {
         "color": "white",
@@ -4101,12 +4101,12 @@
   },
   "20260127cdx396.jpg": {
     "num_lanes": 2,
-    "num_yellow": 0,
-    "num_white": 2,
-    "time_sec": 0.0313,
+    "num_yellow": 1,
+    "num_white": 1,
+    "time_sec": 0.0155,
     "lanes": [
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 17,
         "points": [
           [
@@ -4231,7 +4231,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0252,
+    "time_sec": 0.0313,
     "lanes": [
       {
         "color": "white",
@@ -4315,7 +4315,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0312,
+    "time_sec": 0.0317,
     "lanes": [
       {
         "color": "white",
@@ -4479,7 +4479,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.016,
+    "time_sec": 0.0313,
     "lanes": [
       {
         "color": "white",
@@ -4643,7 +4643,7 @@
     "num_lanes": 2,
     "num_yellow": 1,
     "num_white": 1,
-    "time_sec": 0.0156,
+    "time_sec": 0.0317,
     "lanes": [
       {
         "color": "yellow",
@@ -4759,7 +4759,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0187,
+    "time_sec": 0.0313,
     "lanes": [
       {
         "color": "white",
@@ -4961,7 +4961,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0413,
+    "time_sec": 0.0404,
     "lanes": [
       {
         "color": "white",
@@ -5045,7 +5045,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0276,
+    "time_sec": 0.02,
     "lanes": [
       {
         "color": "white",
@@ -5247,7 +5247,7 @@
     "num_lanes": 3,
     "num_yellow": 0,
     "num_white": 3,
-    "time_sec": 0.0336,
+    "time_sec": 0.0236,
     "lanes": [
       {
         "color": "white",
@@ -5453,7 +5453,7 @@
     "num_lanes": 2,
     "num_yellow": 0,
     "num_white": 2,
-    "time_sec": 0.0336,
+    "time_sec": 0.017,
     "lanes": [
       {
         "color": "white",
@@ -5607,12 +5607,12 @@
   },
   "42.jpg": {
     "num_lanes": 2,
-    "num_yellow": 0,
-    "num_white": 2,
-    "time_sec": 0.0275,
+    "num_yellow": 1,
+    "num_white": 1,
+    "time_sec": 0.0331,
     "lanes": [
       {
-        "color": "white",
+        "color": "yellow",
         "num_points": 5,
         "points": [
           [
@@ -5720,11 +5720,11 @@
   "__summary__": {
     "num_images": 37,
     "total_lanes_detected": 91,
-    "total_yellow_detected": 14,
-    "total_white_detected": 77,
-    "total_time_sec": 1.037,
-    "avg_time_per_image_sec": 0.028,
-    "avg_time_per_image_ms": 28.0,
-    "fps": 35.68
+    "total_yellow_detected": 10,
+    "total_white_detected": 81,
+    "total_time_sec": 1.022,
+    "avg_time_per_image_sec": 0.0276,
+    "avg_time_per_image_ms": 27.6,
+    "fps": 36.19
   }
 }
