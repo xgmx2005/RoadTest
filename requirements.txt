@@ -3,4 +3,5 @@ torchvision
 opencv-python
 numpy
 scipy
+onnxruntime
 gdown

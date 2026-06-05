@@ -11,4 +11,5 @@ dependencies:
       - opencv-python
       - numpy
       - scipy
+      - onnxruntime
       - gdown
